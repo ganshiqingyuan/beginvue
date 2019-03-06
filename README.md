@@ -5,7 +5,8 @@ all code run ok in mac pro
 
 to run this
 
-```git clone https://github.com/ganshiqingyuan/beginvue.git
+```
+   git clone https://github.com/ganshiqingyuan/beginvue.git
    cd beginvue
    npm install
    npm run dev
