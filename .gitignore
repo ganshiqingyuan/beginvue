@@ -1,2 +1,4 @@
-/node_modules
-/package-lock.json
+beginvue1/node_modules
+beginvue2/node_modules
+beginvue1/package-lock.json
+beginvue2/package-lock.json
