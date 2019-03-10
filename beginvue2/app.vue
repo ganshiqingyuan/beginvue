@@ -1,6 +1,6 @@
 <template>
    <!-- <h1>{{test()}}</h1> -->
-   <Router-View to="/"></Router-View>
+   <Router-View></Router-View>
 </template>
 
 <script>
