@@ -1,4 +1,13 @@
 import Vue from "vue";
+import App from "./app.vue"
+import { compile } from "vue-template-compiler";
+import VueRouter from "vue-router"
+Vue.use(VueRouter)
+import router from "./route/route.js"
+import store from "./store/store.js"
+
+
+
 
 new Vue({
     data(){
@@ -6,7 +15,13 @@ new Vue({
             text:123,
         }
     },
+    router,
+    store,
     el:"#app",
-    //render:c=>c("h2",1223212321312123123)
-    template:"<h1>123123</h1>"
+    render:c=>c("App"),
+    components:{
+        App
+    }   
+    
+    //template:"<h1>123123</h1>"
 })
