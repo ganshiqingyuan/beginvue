@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'static/js'),
     filename: '[name].dll.js',
-    library: '[name]_library'
+    library:'[name]'
   },
   module:{
     rules:[
@@ -31,7 +31,7 @@ module.exports = {
     new VueLoaderPlugin(),
     new webpack.DllPlugin({
         path: path.join(__dirname, 'static/js', '[name]-manifest.json'),
-        name: '[name]_library',
+        name:"[name]"
       })
   
   ]

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --inline --open --progress --profile --display-cached --port 8080 --host 0.0.0.0 --hot --config entry.js",
+    "dev": "webpack-dev-server --inline --open --progress --profile --display-cached --port 8083 --host 0.0.0.0 --hot --config entry.js",
     "dll": "webpack --config webpack.dll.js"
   },
   "author": "",

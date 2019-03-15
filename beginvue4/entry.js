@@ -15,7 +15,16 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    chunkFilename:"[hash].js"
+    chunkFilename:"[hash].[name].js"
+  },
+  optimization: {
+    splitChunks: {
+      name:'common',
+      minSize:1,
+      minChunks:1,
+      maxAsyncRequests:10,
+      chunks:'async'
+    },
   },
   module:{
     rules:[
