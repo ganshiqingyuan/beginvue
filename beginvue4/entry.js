@@ -4,6 +4,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const webpack = require("webpack")
 
 module.exports = {
+  mode:"development",
   entry: {
       main:'./index.js'
     },
@@ -38,7 +39,7 @@ module.exports = {
       },
       {
         test:/\.js$/,
-        use:["babel-loader"]
+        use:["babel-loader?cacheDirectory=true"]
       },
       {
         test:/\.less$/,
