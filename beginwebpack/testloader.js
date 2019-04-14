@@ -1,4 +1,4 @@
 module.exports = function(source){
-    //console.log(source)
+    console.log("test loader")
     return source+";console.log(123)"
 }
