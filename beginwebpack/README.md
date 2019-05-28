@@ -2,10 +2,10 @@
 
 learn how the plugins and loader work
 
-all code run ok in mac pro
+all code run ok on mac pro
 
 to run this
 
 ```
-   clone之后，按照文档操作，
+   clone之后，按照简书教程操作，
 ```
